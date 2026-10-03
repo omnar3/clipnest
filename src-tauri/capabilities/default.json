@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-capability",
+  "description": "Only the local main window can listen for clipboard history changes.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
